@@ -1,0 +1,30 @@
+body {
+  background: #f4f8fb;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+header, footer {
+  background-color: #003366;
+  color: white;
+}
+
+.chart-container {
+  background: white;
+  padding: 20px;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.table td, .table th {
+  vertical-align: middle;
+}
+
+td.diff-pos {
+  color: green;
+  font-weight: bold;
+}
+
+td.diff-neg {
+  color: red;
+  font-weight: bold;
+}
